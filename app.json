@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "My Timetable",
+    "slug": "my-timetable",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F3F5F8",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.prince.mytimetable"
+    },
+    "android": {
+      "package": "com.prince.mytimetable",
+      "adaptiveIcon": {
+        "backgroundColor": "#F3F5F8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
